@@ -96,8 +96,7 @@ export default function Home() {
               <Teoria
                 titulo="3. Planteamiento y diseño del software utilizando metodologías ágiles."
                 enlace="T3"
-                key={255}
-                me la pelas
+                key={456}
               />
             </section>
           )}
