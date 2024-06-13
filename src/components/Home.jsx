@@ -107,7 +107,7 @@ export default function Home() {
           </h2>
           {info && (
             <section className="max-w-7xl mx-auto mt-10 ">
-              <div className="grid grid-cols-2 gap-4 bg-teal-600 p-4 rounded-lg mb-10 mx-4">
+              <div className="grid grid-cols-2 gap-4  p-4 rounded-lg mb-10 mx-4">
                 <div className="flex flex-col space-y-4 ">
                   <p className="font-black text-1xl ">
                     {" "}
