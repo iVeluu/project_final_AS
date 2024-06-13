@@ -100,53 +100,55 @@ export default function Home() {
             </section>
           )}
           <h2
-            className="text-center mt-10 font-black text-1xl uppercase text-white bg-teal-600 p-3 rounded-lg mx-auto w-36 max-w-7xl mb-10"
+            className="text-center mt-10 font-black text-1xl uppercase text-white bg-tomato p-3 rounded-lg mx-auto w-36 max-w-7xl mb-10"
             onClick={handleInfoClick}
           >
             Info Alumno
           </h2>
           {info && (
             <section className="max-w-7xl mx-auto mt-10 ">
-              <div className="grid grid-cols-2 gap-4  p-4 rounded-lg mb-10 mx-4">
-                <div className="flex flex-col space-y-4 ">
-                  <p className="font-black text-1xl ">
+              <div className="grid md:grid-cols-2  gap-4 border-4  border-tomato p-4 rounded-lg mb-10 mx-4">
+                <div className="flex flex-col space-y-5 md:border-r-4 md:border-dashed md:border-tomato p-4  ">
+                  <p className="font-black text-1xl text-tomato ">
                     {" "}
                     Nombre: {""}
-                    <span className="font-bold text-white">
+                    <span className="font-bold  text-white">
                       Alejandro Velazquez Luna
                     </span>
                   </p>
-                  <p className="font-black text-1xl">
+                  <p className="font-black text-1xl text-tomato">
                     {" "}
                     Registro: {""}
-                    <span className="font-bold text-white">
-                      Alejandro Velazquez Luna
-                    </span>
+                    <span className="font-bold text-white ">22110228</span>
                   </p>
-                  <p className="font-black text-1xl">
+                  <p className="font-black text-1xl text-tomato">
                     {" "}
                     Materia: {""}
-                    <span className="font-bold text-white">
-                      Alejandro Velazquez Luna
+                    <span className="font-bold text-white ">
+                      Arquitectura de Software
                     </span>
                   </p>
-                  <p className="font-black text-1xl">
+                  <p className="font-black text-1xl text-tomato">
                     {" "}
                     Nombre Maestra: {""}
-                    <span className="font-bold text-white">
-                      Alejandro Velazquez Luna
+                    <span className="font-bold text-white ">
+                      Rodriguez Chavez Cruz Jannet
                     </span>
                   </p>
-                  <p className="font-black text-1xl">
+                  <p className="font-black text-1xl text-tomato">
                     {" "}
                     Nombre Actividad: {""}
-                    <span className="font-bold text-white">
-                      Alejandro Velazquez Luna
+                    <span className="font-bold text-white ">
+                      Proyecto Integrador
                     </span>
                   </p>
                 </div>
-                <div>
-                  <img src="../../public/ceti.png" alt="" />
+                <div className="">
+                  <img
+                    className="h-60 mx-auto "
+                    src="../../public/ceti.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </section>

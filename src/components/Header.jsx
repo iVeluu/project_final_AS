@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
       return (
-        <header className=" p-10 bg-indigo-600  ">
+        <header className=" p-10 border-b-4 border-tomato  ">
           <div className="flex justify-between flex-col md:flex-row max-w-7xl mx-auto items-center">
             <a className="text-white font-bold text-2xl uppercase ">
               Proyecto Final || 22110228
