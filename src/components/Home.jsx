@@ -113,7 +113,7 @@ export default function Home() {
                     {" "}
                     Nombre: {""}
                     <span className="font-bold  text-white">
-                      Alejandro Velazquez Luuuuu jjj jshs
+                      Alejandro Velazquez Luuuuu jjj jshs nnnnn
                     </span>
                   </p>
                   <p className="font-black text-1xl text-tomato">
