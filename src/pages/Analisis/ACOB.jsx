@@ -123,6 +123,7 @@ export default function ACOB() {
           aplicación orientada a objetos, cada capa puede estar compuesta por
           objetos que representan entidades y servicios específicos del dominio.
         </p>
+        <img src="I2.png" alt="imagen" />
       </section>
     </div>
   );

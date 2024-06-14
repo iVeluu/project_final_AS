@@ -39,7 +39,7 @@ export default function IADS() {
               />
             </ul>
           </div>
-          <img src="/I1.png" alt="imagen prueba" className="mx-auto h-80" />
+          <img src="/I1.png" alt="imagen prueba" className="mx-auto h-80 mb-4" />
         </div>
         <div className=" grid md:grid-cols-3 p-5 sm:space-y-2 md:space-y-0 items-start">
           <div>
@@ -80,7 +80,7 @@ export default function IADS() {
                 requisitos en una especificación técnica que los desarrolladores
                 pueden implementar.
               </p>
-              <img src="aaaaa.jpg" alt="design" className="mx-auto h-32" />
+              <img src="aaaaa.jpg" alt="design" className="mx-auto h-32 mb-4" />
             </div>
           </div>
           <div>
