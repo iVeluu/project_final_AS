@@ -113,7 +113,7 @@ export default function Home() {
                     {" "}
                     Nombre: {""}
                     <span className="font-bold  text-white">
-                      Alejandro Velazquez Luuuuu jjj jshs nnnnn jjjjj
+                      Alejandro Velazquez Luna
                     </span>
                   </p>
                   <p className="font-black text-1xl text-tomato">
@@ -146,7 +146,7 @@ export default function Home() {
                 <div className="">
                   <img
                     className="h-60 mx-auto "
-                    src="../../public/ceti.png"
+                    src="/ceti.png"
                     alt=""
                   />
                 </div>
