@@ -59,23 +59,78 @@ export default function ACOB() {
           />
         </ul>
         <h2 className="text-white text-2xl font-bold">
+          Aplicación del patrón arquitectónico en capas a los sistemas y
+          servicios software.
+        </h2>
+        <p className="text-white">
+          La separación de la aplicación en capas busca cumplir con el principio
+          de separación de preocupaciones, de tal forma que cada capa se
+          encargue una tarea muy definida, por ejemplo, la capa de presentación
+          solo se preocupa por presentar la información de forma agradable al
+          usuario, pero no le interesa de donde viene la información ni la
+          lógica de negocio que hay detrás, en su lugar, solo sabe que existe
+          una capa de negocio que le proporcionará la información. Por otra
+          parte, la capa de negocio solo se encarga de aplicar todas las reglas
+          de negocio y validaciones, pero no le interesa como recuperar los
+          datos, guardarlos o borrarlos, ya que para eso tiene una capa de
+          persistencia que se encarga de eso. Por otro lado, la capa de
+          persistencia es la encargada de comunicarse a la base de datos, crear
+          las instrucciones SQL para consultar, insertar, actualizar o borrar
+          registros y retornarlos en un formato independiente a la base de
+          datos. De esta forma, cada capa se preocupa por una cosa y no le
+          interesa como le haga la capa de abajo para servirle los datos que
+          requiere.
+        </p>
+        <img src="C1.webp" alt="Imagen helper" className="mx-auto" />
+        <h2 className="text-white text-2xl font-bold">
+          Principios de diseño de la arquitectura en capas.
+        </h2>
+        <ul className="list-decimal px-6 space-y-4">
+          <ListItem
+            span={"Separación de Responsabilidades (SoC): "}
+            info={
+              " Cada capa tiene una responsabilidad claramente definida y separada de las demás."
+            }
+          />
+          <ListItem
+            span={"Encapsulamiento: "}
+            info={
+              " Cada capa oculta su implementación interna y solo expone una interfaz bien definida."
+            }
+          />
+          <ListItem
+            span={"Interdependencias Controladas: "}
+            info={
+              "Las dependencias entre capas deben ser unidireccionales y claramente definidas."
+            }
+          />
+          <ListItem
+            span={"Reutilización "}
+            info={
+              " Las capas superiores pueden reutilizar las funcionalidades ofrecidas por las capas inferiores."
+            }
+          />
+        </ul>
+        <h2 className="text-white text-2xl font-bold">
           Beneficios de la Arquitectura en Capas
         </h2>
         <ul className="list-decimal px-6 space-y-4">
           <ListItem
-            span={"Modularidad: "}
-            info={" Cada capa se desarrolla y mantiene por separado."}
-          />
-          <ListItem
-            span={"Mantenibilidad: "}
+            span={"Fácil de desarrollar: "}
             info={
-              " Los cambios en una capa no afectan directamente a otras capas."
+              " Este estilo arquitectónico es especialmente fácil de implementar, además de que es muy conocido y una gran mayoría de las aplicaciones la utilizan."
             }
           />
           <ListItem
-            span={"Reusabilidad: "}
+            span={"Fácil de desarrollar: "}
             info={
-              "Componentes en una capa pueden ser reutilizados en diferentes partes del sistema."
+              " Debido a que la aplicación construida por capas, es posible ir probando de forma individual cada capa, lo que permite probar por separada cada capa."
+            }
+          />
+          <ListItem
+            span={"Fácil de mantener: "}
+            info={
+              "Debido a que cada capa hace una tarea muy específica, es fácil detectar el origen de un bug para corregirlo, o simplemente se puede identificar donde se debe aplicar un cambio."
             }
           />
         </ul>

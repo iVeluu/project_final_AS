@@ -1,13 +1,11 @@
 import { useState } from "react";
 import Analisis from "./Analisis";
 import Teoria from "./Teoria";
-import Preguntas from "./Preguntas";
 
 export default function Home() {
 
       const [analisis, setAnalisis] = useState(false);
       const [teoria, setTeoria] = useState(false);
-      const [preguntas, setPreguntas] = useState(false);
       const [info, setInfo] = useState(false);
 
       const handleTeoriaClick = () => {
@@ -16,10 +14,6 @@ export default function Home() {
 
       const handleAnalisisClick = () => {
             setAnalisis(!analisis);
-      };
-
-      const handlePreguntasClick = () => {
-            setPreguntas(!preguntas);
       };
 
       const handleInfoClick = () => {
@@ -54,29 +48,7 @@ export default function Home() {
               />
             </section>
           )}
-          <h2
-            className="text-center mt-10 font-black text-1xl uppercase text-white bg-fuchsia-600 p-3 rounded-lg mx-auto w-36 max-w-7xl"
-            onClick={handlePreguntasClick}
-          >
-            Preguntas
-          </h2>
-          {preguntas && (
-            <section className="grid md:grid-cols-2 max-w-7xl mx-auto mt-10 gap-4 mb-10   ">
-              <Preguntas
-                titulo="1. ¿Qué es la arquitectura en capas y orientada a objetos, el diseño del software (de metodologías clásicas y ágiles)?"
-                enlace="P1"
-              />
-              <Preguntas
-                titulo="2.  ¿Cuáles son esas metodologías y las más usadas en que se divide el diseño del software? y describe cada una de las metodologías."
-                enlace="P2"
-              />
-              <Preguntas
-                titulo="3. - Patrón arquitectónico en capas y orientado a objetos, aplicación y diseño."
-                enlace="P3"
-              />
-              <Preguntas titulo="4. Patrones de Diseño" enlace="P4" />
-            </section>
-          )}
+
           <h2
             className="text-center mt-10 font-black text-1xl uppercase text-white bg-blue-600 p-3 rounded-lg mx-auto w-36 max-w-7xl"
             onClick={handleTeoriaClick}

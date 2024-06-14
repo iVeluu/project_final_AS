@@ -6,7 +6,7 @@ export default function DSMA() {
       <section className="border-violet-700 border-4 p-6 rounded-lg m-4 space-y-6">
         <Title info={"Diseño de software utilizando metodologías ágiles."} />
         <div className="flex flex-col">
-          <h2 className="text-white text-2xl font-bold my-5 ">
+          <h2 className="text-white text-2xl font-bold my-5 text-center md:text-left ">
             ¿Qué son las metodologías ágiles?
           </h2>
           <div className="grid md:grid-cols-2 gap-4 border-b-4 border-violet-600 py-5">
@@ -30,7 +30,9 @@ export default function DSMA() {
               </p>
             </div>
           </div>
-          <h2 className="text-white text-2xl font-bold my-5 text-right">SCRUM</h2>
+          <h2 className="text-white text-2xl font-bold my-5 text-center md:text-right">
+            SCRUM
+          </h2>
           <div className="grid md:grid-cols-2 gap-4 border-b-4 border-violet-600 py-5">
             <div className="text-white space-y-5 my-auto">
               <p>
@@ -50,7 +52,7 @@ export default function DSMA() {
             </div>
             <img src="SCRUM.png" alt="metod agiles" className="rounded-lg" />
           </div>
-          <h2 className="text-white text-2xl font-bold my-5">
+          <h2 className="text-white text-2xl font-bold my-5 text-center md:text-left">
             Extreme Programming o XP
           </h2>
           <div className="grid md:grid-cols-2 gap-4 border-b-4 border-violet-600 py-5">
@@ -81,7 +83,9 @@ export default function DSMA() {
               </p>
             </div>
           </div>
-          <h2 className="text-white text-2xl font-bold my-5 text-right">Kanban</h2>
+          <h2 className="text-white text-2xl font-bold my-5 text-center md:text-right">
+            Kanban
+          </h2>
           <div className="grid md:grid-cols-2 gap-4 border-b-4 border-violet-600 py-5">
             <div className="text-white space-y-5 my-auto">
               <p>
