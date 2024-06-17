@@ -30,7 +30,7 @@ export default function DSMA() {
               </p>
             </div>
           </div>
-          <h2 className="text-white text-2xl font-bold my-5 text-center md:text-right">
+          <h2 className="text-white text-2xl font-bold my-5 text-center md:text-left">
             SCRUM
           </h2>
           <div className="grid md:grid-cols-2 gap-4 border-b-4 border-violet-600 py-5">
@@ -83,7 +83,7 @@ export default function DSMA() {
               </p>
             </div>
           </div>
-          <h2 className="text-white text-2xl font-bold my-5 text-center md:text-right">
+          <h2 className="text-white text-2xl font-bold my-5 text-center md:text-left">
             Kanban
           </h2>
           <div className="grid md:grid-cols-2 gap-4 border-b-4 border-violet-600 py-5">
