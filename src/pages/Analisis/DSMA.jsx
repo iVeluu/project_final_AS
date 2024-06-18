@@ -246,7 +246,7 @@ export default function DSMA() {
           </h2>
           <div className="grid md:grid-cols-2 gap-4 border-b-4 border-violet-600 py-5">
             <img
-              src="simple.jpg"
+              src="simple.png"
               alt="metod agiles"
               className="rounded-lg  my-auto "
             />
@@ -324,7 +324,7 @@ export default function DSMA() {
               </ul>
             </div>
             <img
-              src="PR2.webp"
+              src="IN1.webp"
               alt="metod agiles"
               className="rounded-lg  my-auto "
             />
