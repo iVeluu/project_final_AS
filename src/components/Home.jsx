@@ -53,7 +53,7 @@ export default function Home() {
             className="text-center mt-10 font-black text-1xl uppercase text-white bg-blue-600 p-3 rounded-lg mx-auto w-36 max-w-7xl"
             onClick={handleTeoriaClick}
           >
-            Teoría
+            Prácticas
           </h2>
           {teoria && (
             <section className="grid md:grid-cols-2 max-w-7xl mx-auto mt-10 gap-4">
@@ -83,9 +83,9 @@ export default function Home() {
                 <div className="flex flex-col space-y-5 md:border-r-4 md:border-dashed md:border-tomato p-4  ">
                   <p className="font-black text-1xl text-tomato ">
                     {" "}
-                    Nombre: {""}
+                    Alias: {""}
                     <span className="font-bold  text-white">
-                      Alejandro Velazquez Luna
+                     Velu
                     </span>
                   </p>
                   <p className="font-black text-1xl text-tomato">
@@ -104,7 +104,7 @@ export default function Home() {
                     {" "}
                     Nombre Maestra: {""}
                     <span className="font-bold text-white ">
-                      Rodriguez Chavez Cruz Jannet
+                      Rodriguez Jannet
                     </span>
                   </p>
                   <p className="font-black text-1xl text-tomato">

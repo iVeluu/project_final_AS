@@ -115,7 +115,7 @@ export default function IADS() {
             metodologías ágiles (como Scrum o Kanban). A continuación, se
             presenta una comparación de estos enfoques:
           </p>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2  gap-4">
             <div>
               <h2 className=" text-white text-center mb-5 font-bold mt-5">
                 Metodologías Clásicas
@@ -167,56 +167,56 @@ export default function IADS() {
               </ul>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 gap-4">
             <div>
-                <h2 className=" text-white text-center mb-5 font-bold mt-5">
-                  Diseño del Software
-                </h2>
-                <ul className="list-disc px-6 space-y-4">
-                  <ListItem
-                    span={"Diseño Detallado Inicial:  "}
-                    info={
-                      " Al igual que con la arquitectura, el diseño del software se realiza en detalle antes de comenzar la codificación."
-                    }
-                  />
-                  <ListItem
-                    span={"Especificaciones Complejas:   "}
-                    info={
-                      "  Se crean especificaciones detalladas para cada componente del sistema, incluyendo algoritmos, estructuras de datos, y flujos de trabajo."
-                    }
-                  />
-                  <ListItem
-                    span={"Especificaciones Complejas: "}
-                    info={
-                      "  Debido a la naturaleza secuencial del proceso, se intenta minimizar los cambios en el diseño una vez que se ha comenzado el desarrollo."
-                    }
-                  />
-                </ul>
+              <h2 className=" text-white text-center mb-5 font-bold mt-5">
+                Diseño del Software de Metodologías Clásicas
+              </h2>
+              <ul className="list-disc px-6 space-y-4">
+                <ListItem
+                  span={"Diseño Detallado Inicial:  "}
+                  info={
+                    " Al igual que con la arquitectura, el diseño del software se realiza en detalle antes de comenzar la codificación."
+                  }
+                />
+                <ListItem
+                  span={"Especificaciones Complejas:   "}
+                  info={
+                    "  Se crean especificaciones detalladas para cada componente del sistema, incluyendo algoritmos, estructuras de datos, y flujos de trabajo."
+                  }
+                />
+                <ListItem
+                  span={"Especificaciones Complejas: "}
+                  info={
+                    "  Debido a la naturaleza secuencial del proceso, se intenta minimizar los cambios en el diseño una vez que se ha comenzado el desarrollo."
+                  }
+                />
+              </ul>
             </div>
             <div>
-                <h2 className=" text-white text-center mb-5 font-bold mt-5">
-                  Diseño del Software
-                </h2>
-                <ul className="list-disc px-6 space-y-4">
-                  <ListItem
-                    span={"Diseño Iterativo:  "}
-                    info={
-                      " El diseño del software se realiza de manera iterativa y incremental. Se crean diseños iniciales simples que se refinan y mejoran con cada iteración."
-                    }
-                  />
-                  <ListItem
-                    span={"Flexibilidad y Refactorización:   "}
-                    info={
-                      "  Se espera que el diseño cambie y se mejore a lo largo del tiempo. La refactorización es una práctica común y aceptada."
-                    }
-                  />
-                  <ListItem
-                    span={"Flexibilidad y Refactorización: "}
-                    info={
-                      " Los equipos de desarrollo colaboran estrechamente con los stakeholders para ajustar el diseño basado en el feedback constante y las necesidades cambiantes."
-                    }
-                  />
-                </ul>
+              <h2 className=" text-white text-center mb-5 font-bold mt-5">
+                Diseño del Software de Metodologías Ágiles
+              </h2>
+              <ul className="list-disc px-6 space-y-4">
+                <ListItem
+                  span={"Diseño Iterativo:  "}
+                  info={
+                    " El diseño del software se realiza de manera iterativa y incremental. Se crean diseños iniciales simples que se refinan y mejoran con cada iteración."
+                  }
+                />
+                <ListItem
+                  span={"Flexibilidad y Refactorización:   "}
+                  info={
+                    "  Se espera que el diseño cambie y se mejore a lo largo del tiempo. La refactorización es una práctica común y aceptada."
+                  }
+                />
+                <ListItem
+                  span={"Flexibilidad y Refactorización: "}
+                  info={
+                    " Los equipos de desarrollo colaboran estrechamente con los stakeholders para ajustar el diseño basado en el feedback constante y las necesidades cambiantes."
+                  }
+                />
+              </ul>
             </div>
           </div>
         </div>
