@@ -6,6 +6,7 @@ export default {
       colors: {
         customDark: '#1b1a27',
         tomato: '#f84f39',
+        headers: '#2ef8a0'
       }
     },
   },

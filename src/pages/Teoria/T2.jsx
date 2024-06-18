@@ -111,6 +111,8 @@ export default function T1() {
           Después de hacer el deploy se estarán incorporando actualizaciones y
           buscando cualquier error para solucionarlo.
         </p>
+        <p className='text-white font-bold text-2xl'>Por cierto ella es Molly</p>
+        <img src="mollly.jpeg" alt="molly" />
       </section>
     </div>
   );
