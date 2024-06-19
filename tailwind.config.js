@@ -4,10 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        customDark: '#1b1a27',
-        tomato: '#f84f39',
-        headers: '#2ef8a0'
-      }
+        customDark: "#1b1a27",
+        tomato: "#f84f39",
+        headers: "#2ef8a0",
+        referencias: "#4CAF50",
+      },
     },
   },
   plugins: [],
